@@ -1,0 +1,110 @@
+body {
+    background-color: #15202B;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.chooseBtn {
+    width: 70%;
+    height: 60px;
+    background-color: #273340;
+    color: white;
+    border: 1px solid #2f3f4f;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.chooseBtn:hover {
+    background-color: #EF7D31;
+}
+
+.main {
+    display: none;
+}
+
+.guessContainer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 40vh;
+    gap: 30px;
+}
+
+
+.guessContainer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 40vh;
+    gap: 30px;
+}
+
+.guessBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #EF7D31;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+
+.letterInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.letterInput {
+    height: 70px;
+    width: 70px;
+    background-color: #273340;
+    border: 2px solid #2f3f4f;
+    border-radius: 5px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.letterInput:focus {
+    outline: none;
+}
+
+.result {
+    display: none;
+}
+
+.resultBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.resultBtn {
+    background-color: #EF7D31;
+    border: 0;
+    border-radius: 10px;
+    width: 150px;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
